@@ -1,4 +1,4 @@
-TBA — Heroes of Might and Magic Olden Era Template
+## TBA — Heroes of Might and Magic Olden Era Template
 
 Template by TumX
 
