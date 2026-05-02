@@ -1,6 +1,6 @@
 ## TBA — Heroes of Might and Magic Olden Era Template
 
-##Template by TumX
+## Template by TumX
 
 A custom map generation template designed for long-term gameplay with a focus on:
 
@@ -13,7 +13,7 @@ Current version: V1
 This is not the final version. Balance adjustments and improvements are planned for future updates.
 
 
-##Installation
+## Installation
 
 Download the following files:
 
@@ -44,7 +44,7 @@ After installation, the template should appear in the in-game map generator.
 
 
 
-##About the Template
+## About the Template
 
 TBA is focused on:
 
