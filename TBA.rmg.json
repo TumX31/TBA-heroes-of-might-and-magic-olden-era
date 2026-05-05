@@ -1,7 +1,7 @@
 {
 	"name": "TBA",
 	"gameMode": "Classic",
-	"description": "Template by TumX. A template designed for long-term gameplay (priority for mages). Not the final version (V1) — balance adjustments are still needed. I’ll update it in the near future.",
+	"description": "Template by TumX. A template designed for long-term gameplay (priority for mages). Not the final version (V1.1) — balance adjustments are still needed. I’ll update it in the near future.",
 	"displayWinCondition": "win_condition_1",
 	"sizeX": 240,
 	"sizeZ": 240,
@@ -148,10 +148,10 @@
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_start_zone"
+						"content_pool_template_TBA_guarded_start_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_start_zone"
+						"content_pool_template_TBA_unguarded_start_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_start_zone_very_poor"
@@ -265,10 +265,10 @@
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_start_zone"
+						"content_pool_template_TBA_guarded_start_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_start_zone"
+						"content_pool_template_TBA_unguarded_start_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_start_zone_very_poor"
@@ -382,10 +382,10 @@
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_start_zone"
+						"content_pool_template_TBA_guarded_start_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_start_zone"
+						"content_pool_template_TBA_unguarded_start_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_start_zone_very_poor"
@@ -499,10 +499,10 @@
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_start_zone"
+						"content_pool_template_TBA_guarded_start_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_start_zone"
+						"content_pool_template_TBA_unguarded_start_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_start_zone_very_poor"
@@ -616,10 +616,10 @@
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_start_zone"
+						"content_pool_template_TBA_guarded_start_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_start_zone"
+						"content_pool_template_TBA_unguarded_start_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_start_zone_very_poor"
@@ -733,10 +733,10 @@
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_start_zone"
+						"content_pool_template_TBA_guarded_start_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_start_zone"
+						"content_pool_template_TBA_unguarded_start_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_start_zone_very_poor"
@@ -850,10 +850,10 @@
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_start_zone"
+						"content_pool_template_TBA_guarded_start_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_start_zone"
+						"content_pool_template_TBA_unguarded_start_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_start_zone_very_poor"
@@ -967,10 +967,10 @@
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_start_zone"
+						"content_pool_template_TBA_guarded_start_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_start_zone"
+						"content_pool_template_TBA_unguarded_start_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_start_zone_very_poor"
@@ -1018,19 +1018,37 @@
 					"zoneBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
+							"Autumn",
+							"Sand"
 						]
 					},
 					"contentBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
+							"Autumn",
+							"Sand"
 						]
 					},
 					"metaObjectsBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
+							"Autumn",
+							"Sand"
 						]
 					},
 					"roads": [
@@ -1081,16 +1099,16 @@
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_treasure_zone"
+						"content_pool_template_TBA_guarded_treasure_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_treasure_zone"
+						"content_pool_template_TBA_unguarded_treasure_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_treasure_zone_poor"
 					],
 					"mandatoryContent": [
-						"mandatory_content_treasure"
+						"mandatory_content_t1_zone"
 					],
 					"contentCountLimits": [
 						"content_limits_treasure"
@@ -1132,19 +1150,37 @@
 					"zoneBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
+							"Autumn",
+							"Sand"
 						]
 					},
 					"contentBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
+							"Autumn",
+							"Sand"
 						]
 					},
 					"metaObjectsBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
+							"Autumn",
+							"Sand"
 						]
 					},
 					"roads": [
@@ -1195,16 +1231,16 @@
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_treasure_zone"
+						"content_pool_template_TBA_guarded_treasure_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_treasure_zone"
+						"content_pool_template_TBA_unguarded_treasure_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_treasure_zone_poor"
 					],
 					"mandatoryContent": [
-						"mandatory_content_treasure"
+						"mandatory_content_t1_zone"
 					],
 					"contentCountLimits": [
 						"content_limits_treasure"
@@ -1246,19 +1282,37 @@
 					"zoneBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
+							"Autumn",
+							"Sand"
 						]
 					},
 					"contentBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
+							"Autumn",
+							"Sand"
 						]
 					},
 					"metaObjectsBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
+							"Autumn",
+							"Sand"
 						]
 					},
 					"roads": [
@@ -1309,16 +1363,16 @@
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_treasure_zone"
+						"content_pool_template_TBA_guarded_treasure_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_treasure_zone"
+						"content_pool_template_TBA_unguarded_treasure_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_treasure_zone_poor"
 					],
 					"mandatoryContent": [
-						"mandatory_content_treasure"
+						"mandatory_content_t1_zone"
 					],
 					"contentCountLimits": [
 						"content_limits_treasure"
@@ -1360,19 +1414,37 @@
 					"zoneBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
+							"Autumn",
+							"Sand"
 						]
 					},
 					"contentBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
+							"Autumn",
+							"Sand"
 						]
 					},
 					"metaObjectsBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
+							"Autumn",
+							"Sand"
 						]
 					},
 					"roads": [
@@ -1423,16 +1495,16 @@
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_treasure_zone"
+						"content_pool_template_TBA_guarded_treasure_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_treasure_zone"
+						"content_pool_template_TBA_unguarded_treasure_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_treasure_zone_poor"
 					],
 					"mandatoryContent": [
-						"mandatory_content_treasure"
+						"mandatory_content_t1_zone"
 					],
 					"contentCountLimits": [
 						"content_limits_treasure"
@@ -1474,19 +1546,37 @@
 					"zoneBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
+							"Autumn",
+							"Sand"
 						]
 					},
 					"contentBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
+							"Autumn",
+							"Sand"
 						]
 					},
 					"metaObjectsBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
+							"Autumn",
+							"Sand"
 						]
 					},
 					"roads": [
@@ -1537,16 +1627,16 @@
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_treasure_zone"
+						"content_pool_template_TBA_guarded_treasure_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_treasure_zone"
+						"content_pool_template_TBA_unguarded_treasure_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_treasure_zone_poor"
 					],
 					"mandatoryContent": [
-						"mandatory_content_treasure"
+						"mandatory_content_t1_zone"
 					],
 					"contentCountLimits": [
 						"content_limits_treasure"
@@ -1588,19 +1678,37 @@
 					"zoneBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
+							"Autumn",
+							"Sand"
 						]
 					},
 					"contentBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
+							"Autumn",
+							"Sand"
 						]
 					},
 					"metaObjectsBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
+							"Autumn",
+							"Sand"
 						]
 					},
 					"roads": [
@@ -1651,16 +1759,16 @@
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_treasure_zone"
+						"content_pool_template_TBA_guarded_treasure_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_treasure_zone"
+						"content_pool_template_TBA_unguarded_treasure_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_treasure_zone_poor"
 					],
 					"mandatoryContent": [
-						"mandatory_content_treasure"
+						"mandatory_content_t1_zone"
 					],
 					"contentCountLimits": [
 						"content_limits_treasure"
@@ -1702,19 +1810,37 @@
 					"zoneBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
+							"Autumn",
+							"Sand"
 						]
 					},
 					"contentBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
+							"Autumn",
+							"Sand"
 						]
 					},
 					"metaObjectsBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
+							"Autumn",
+							"Sand"
 						]
 					},
 					"roads": [
@@ -1765,16 +1891,16 @@
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_treasure_zone"
+						"content_pool_template_TBA_guarded_treasure_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_treasure_zone"
+						"content_pool_template_TBA_unguarded_treasure_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_treasure_zone_poor"
 					],
 					"mandatoryContent": [
-						"mandatory_content_treasure"
+						"mandatory_content_t1_zone"
 					],
 					"contentCountLimits": [
 						"content_limits_treasure"
@@ -1816,19 +1942,37 @@
 					"zoneBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
+							"Autumn",
+							"Sand"
 						]
 					},
 					"contentBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
+							"Autumn",
+							"Sand"
 						]
 					},
 					"metaObjectsBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
+							"Autumn",
+							"Sand"
 						]
 					},
 					"roads": [
@@ -1879,16 +2023,16 @@
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_treasure_zone"
+						"content_pool_template_TBA_guarded_treasure_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_treasure_zone"
+						"content_pool_template_TBA_unguarded_treasure_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_treasure_zone_poor"
 					],
 					"mandatoryContent": [
-						"mandatory_content_treasure"
+						"mandatory_content_t1_zone"
 					],
 					"contentCountLimits": [
 						"content_limits_treasure"
@@ -1917,16 +2061,7 @@
 						0
 					],
 					"diplomacyModifier": -0.5,
-					"mainObjects": [
-						{
-							"type": "AbandonedOutpost",
-							"guardChance": 1.0,
-							"guardValue": 10000,
-							"guardWeeklyIncrement": 0.2,
-							"buildingsConstructionSid": "poor_buildings_construction",
-							"placement": "Center"
-						}
-					],
+					"mainObjects": [],
 					"zoneBiome": {
 						"type": "FromList",
 						"args": [
@@ -1949,24 +2084,9 @@
 						{
 							"type": "Stone",
 							"from": {
-								"type": "MainObject",
-								"args": [
-									"0"
-								]
-							},
-							"to": {
 								"type": "Connection",
 								"args": [
 									"T1-A--T2-A"
-								]
-							}
-						},
-						{
-							"type": "Stone",
-							"from": {
-								"type": "MainObject",
-								"args": [
-									"0"
 								]
 							},
 							"to": {
@@ -1978,10 +2098,10 @@
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_treasure_zone"
+						"content_pool_template_TBA_guarded_treasure_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_treasure_zone"
+						"content_pool_template_TBA_unguarded_treasure_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_treasure_zone_poor"
@@ -2016,16 +2136,7 @@
 						0
 					],
 					"diplomacyModifier": -0.5,
-					"mainObjects": [
-						{
-							"type": "AbandonedOutpost",
-							"guardChance": 1.0,
-							"guardValue": 10000,
-							"guardWeeklyIncrement": 0.2,
-							"buildingsConstructionSid": "poor_buildings_construction",
-							"placement": "Center"
-						}
-					],
+					"mainObjects": [],
 					"zoneBiome": {
 						"type": "FromList",
 						"args": [
@@ -2048,9 +2159,9 @@
 						{
 							"type": "Stone",
 							"from": {
-								"type": "MainObject",
+								"type": "Connection",
 								"args": [
-									"0"
+									"T1-B--T2-B"
 								]
 							},
 							"to": {
@@ -2059,28 +2170,13 @@
 									"T2-A--T2-B"
 								]
 							}
-						},
-						{
-							"type": "Stone",
-							"from": {
-								"type": "MainObject",
-								"args": [
-									"0"
-								]
-							},
-							"to": {
-								"type": "Connection",
-								"args": [
-									"T1-B--T2-B"
-								]
-							}
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_treasure_zone"
+						"content_pool_template_TBA_guarded_treasure_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_treasure_zone"
+						"content_pool_template_TBA_unguarded_treasure_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_treasure_zone_poor"
@@ -2115,16 +2211,7 @@
 						0
 					],
 					"diplomacyModifier": -0.5,
-					"mainObjects": [
-						{
-							"type": "AbandonedOutpost",
-							"guardChance": 1.0,
-							"guardValue": 10000,
-							"guardWeeklyIncrement": 0.2,
-							"buildingsConstructionSid": "poor_buildings_construction",
-							"placement": "Center"
-						}
-					],
+					"mainObjects": [],
 					"zoneBiome": {
 						"type": "FromList",
 						"args": [
@@ -2147,9 +2234,9 @@
 						{
 							"type": "Stone",
 							"from": {
-								"type": "MainObject",
+								"type": "Connection",
 								"args": [
-									"0"
+									"T2-C--T1-C"
 								]
 							},
 							"to": {
@@ -2158,28 +2245,13 @@
 									"T2-C--T2-D"
 								]
 							}
-						},
-						{
-							"type": "Stone",
-							"from": {
-								"type": "MainObject",
-								"args": [
-									"0"
-								]
-							},
-							"to": {
-								"type": "Connection",
-								"args": [
-									"T2-C--T1-C"
-								]
-							}
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_treasure_zone"
+						"content_pool_template_TBA_guarded_treasure_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_treasure_zone"
+						"content_pool_template_TBA_unguarded_treasure_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_treasure_zone_poor"
@@ -2214,16 +2286,7 @@
 						0
 					],
 					"diplomacyModifier": -0.5,
-					"mainObjects": [
-						{
-							"type": "AbandonedOutpost",
-							"guardChance": 1.0,
-							"guardValue": 10000,
-							"guardWeeklyIncrement": 0.2,
-							"buildingsConstructionSid": "poor_buildings_construction",
-							"placement": "Center"
-						}
-					],
+					"mainObjects": [],
 					"zoneBiome": {
 						"type": "FromList",
 						"args": [
@@ -2246,9 +2309,9 @@
 						{
 							"type": "Stone",
 							"from": {
-								"type": "MainObject",
+								"type": "Connection",
 								"args": [
-									"0"
+									"T1-D--T2-D"
 								]
 							},
 							"to": {
@@ -2257,28 +2320,13 @@
 									"T2-C--T2-D"
 								]
 							}
-						},
-						{
-							"type": "Stone",
-							"from": {
-								"type": "MainObject",
-								"args": [
-									"0"
-								]
-							},
-							"to": {
-								"type": "Connection",
-								"args": [
-									"T1-D--T2-D"
-								]
-							}
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_treasure_zone"
+						"content_pool_template_TBA_guarded_treasure_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_treasure_zone"
+						"content_pool_template_TBA_unguarded_treasure_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_treasure_zone_poor"
@@ -2313,16 +2361,7 @@
 						0
 					],
 					"diplomacyModifier": -0.5,
-					"mainObjects": [
-						{
-							"type": "AbandonedOutpost",
-							"guardChance": 1.0,
-							"guardValue": 10000,
-							"guardWeeklyIncrement": 0.2,
-							"buildingsConstructionSid": "poor_buildings_construction",
-							"placement": "Center"
-						}
-					],
+					"mainObjects": [],
 					"zoneBiome": {
 						"type": "FromList",
 						"args": [
@@ -2345,24 +2384,9 @@
 						{
 							"type": "Stone",
 							"from": {
-								"type": "MainObject",
-								"args": [
-									"0"
-								]
-							},
-							"to": {
 								"type": "Connection",
 								"args": [
 									"T2-H--T2-E"
-								]
-							}
-						},
-						{
-							"type": "Stone",
-							"from": {
-								"type": "MainObject",
-								"args": [
-									"0"
 								]
 							},
 							"to": {
@@ -2374,10 +2398,10 @@
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_treasure_zone"
+						"content_pool_template_TBA_guarded_treasure_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_treasure_zone"
+						"content_pool_template_TBA_unguarded_treasure_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_treasure_zone_poor"
@@ -2412,16 +2436,7 @@
 						0
 					],
 					"diplomacyModifier": -0.5,
-					"mainObjects": [
-						{
-							"type": "AbandonedOutpost",
-							"guardChance": 1.0,
-							"guardValue": 10000,
-							"guardWeeklyIncrement": 0.2,
-							"buildingsConstructionSid": "poor_buildings_construction",
-							"placement": "Center"
-						}
-					],
+					"mainObjects": [],
 					"zoneBiome": {
 						"type": "FromList",
 						"args": [
@@ -2444,24 +2459,9 @@
 						{
 							"type": "Stone",
 							"from": {
-								"type": "MainObject",
-								"args": [
-									"0"
-								]
-							},
-							"to": {
 								"type": "Connection",
 								"args": [
 									"T2-G--T2-F"
-								]
-							}
-						},
-						{
-							"type": "Stone",
-							"from": {
-								"type": "MainObject",
-								"args": [
-									"0"
 								]
 							},
 							"to": {
@@ -2473,10 +2473,10 @@
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_treasure_zone"
+						"content_pool_template_TBA_guarded_treasure_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_treasure_zone"
+						"content_pool_template_TBA_unguarded_treasure_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_treasure_zone_poor"
@@ -2511,16 +2511,7 @@
 						0
 					],
 					"diplomacyModifier": -0.5,
-					"mainObjects": [
-						{
-							"type": "AbandonedOutpost",
-							"guardChance": 1.0,
-							"guardValue": 10000,
-							"guardWeeklyIncrement": 0.2,
-							"buildingsConstructionSid": "poor_buildings_construction",
-							"placement": "Center"
-						}
-					],
+					"mainObjects": [],
 					"zoneBiome": {
 						"type": "FromList",
 						"args": [
@@ -2543,9 +2534,9 @@
 						{
 							"type": "Stone",
 							"from": {
-								"type": "MainObject",
+								"type": "Connection",
 								"args": [
-									"0"
+									"T2-G--T1-G"
 								]
 							},
 							"to": {
@@ -2554,28 +2545,13 @@
 									"T2-G--T2-F"
 								]
 							}
-						},
-						{
-							"type": "Stone",
-							"from": {
-								"type": "MainObject",
-								"args": [
-									"0"
-								]
-							},
-							"to": {
-								"type": "Connection",
-								"args": [
-									"T2-G--T1-G"
-								]
-							}
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_treasure_zone"
+						"content_pool_template_TBA_guarded_treasure_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_treasure_zone"
+						"content_pool_template_TBA_unguarded_treasure_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_treasure_zone_poor"
@@ -2610,16 +2586,7 @@
 						0
 					],
 					"diplomacyModifier": -0.5,
-					"mainObjects": [
-						{
-							"type": "AbandonedOutpost",
-							"guardChance": 1.0,
-							"guardValue": 10000,
-							"guardWeeklyIncrement": 0.2,
-							"buildingsConstructionSid": "poor_buildings_construction",
-							"placement": "Center"
-						}
-					],
+					"mainObjects": [],
 					"zoneBiome": {
 						"type": "FromList",
 						"args": [
@@ -2642,9 +2609,9 @@
 						{
 							"type": "Stone",
 							"from": {
-								"type": "MainObject",
+								"type": "Connection",
 								"args": [
-									"0"
+									"T2-H--T1-H"
 								]
 							},
 							"to": {
@@ -2653,28 +2620,13 @@
 									"T2-H--T2-E"
 								]
 							}
-						},
-						{
-							"type": "Stone",
-							"from": {
-								"type": "MainObject",
-								"args": [
-									"0"
-								]
-							},
-							"to": {
-								"type": "Connection",
-								"args": [
-									"T2-H--T1-H"
-								]
-							}
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_treasure_zone"
+						"content_pool_template_TBA_guarded_treasure_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_treasure_zone"
+						"content_pool_template_TBA_unguarded_treasure_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_treasure_zone_poor"
@@ -2722,19 +2674,19 @@
 					"zoneBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Sand"
 						]
 					},
 					"contentBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Sand"
 						]
 					},
 					"metaObjectsBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Sand"
 						]
 					},
 					"roads": [
@@ -2800,10 +2752,10 @@
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_treasure_zone"
+						"content_pool_template_TBA_guarded_treasure_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_treasure_zone"
+						"content_pool_template_TBA_unguarded_treasure_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_treasure_zone_poor"
@@ -2851,19 +2803,19 @@
 					"zoneBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Sand"
 						]
 					},
 					"contentBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Sand"
 						]
 					},
 					"metaObjectsBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Sand"
 						]
 					},
 					"roads": [
@@ -2929,10 +2881,10 @@
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_treasure_zone"
+						"content_pool_template_TBA_guarded_treasure_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_treasure_zone"
+						"content_pool_template_TBA_unguarded_treasure_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_treasure_zone_poor"
@@ -2980,19 +2932,19 @@
 					"zoneBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Sand"
 						]
 					},
 					"contentBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Sand"
 						]
 					},
 					"metaObjectsBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Sand"
 						]
 					},
 					"roads": [
@@ -3058,10 +3010,10 @@
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_treasure_zone"
+						"content_pool_template_TBA_guarded_treasure_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_treasure_zone"
+						"content_pool_template_TBA_unguarded_treasure_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_treasure_zone_poor"
@@ -3109,19 +3061,19 @@
 					"zoneBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Sand"
 						]
 					},
 					"contentBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Sand"
 						]
 					},
 					"metaObjectsBiome": {
 						"type": "FromList",
 						"args": [
-							"Autumn"
+							"Sand"
 						]
 					},
 					"roads": [
@@ -3187,10 +3139,10 @@
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_treasure_zone"
+						"content_pool_template_TBA_guarded_treasure_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_treasure_zone"
+						"content_pool_template_TBA_unguarded_treasure_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_treasure_zone_poor"
@@ -3225,31 +3177,37 @@
 						0
 					],
 					"diplomacyModifier": -0.5,
-					"mainObjects": [
-						{
-							"type": "AbandonedOutpost",
-							"guardChance": 1.0,
-							"guardValue": 10000,
-							"guardWeeklyIncrement": 0.2,
-							"buildingsConstructionSid": "poor_buildings_construction",
-							"placement": "Center"
-						}
-					],
+					"mainObjects": [],
 					"zoneBiome": {
 						"type": "FromList",
 						"args": [
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
 							"Autumn"
 						]
 					},
 					"contentBiome": {
 						"type": "FromList",
 						"args": [
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
 							"Autumn"
 						]
 					},
 					"metaObjectsBiome": {
 						"type": "FromList",
 						"args": [
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
 							"Autumn"
 						]
 					},
@@ -3257,24 +3215,9 @@
 						{
 							"type": "Stone",
 							"from": {
-								"type": "MainObject",
-								"args": [
-									"0"
-								]
-							},
-							"to": {
 								"type": "Connection",
 								"args": [
 									"Ctr-E--Inner-E"
-								]
-							}
-						},
-						{
-							"type": "Stone",
-							"from": {
-								"type": "MainObject",
-								"args": [
-									"0"
 								]
 							},
 							"to": {
@@ -3287,9 +3230,9 @@
 						{
 							"type": "Stone",
 							"from": {
-								"type": "MainObject",
+								"type": "Connection",
 								"args": [
-									"0"
+									"Ctr-E--Inner-E"
 								]
 							},
 							"to": {
@@ -3301,10 +3244,10 @@
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_treasure_zone"
+						"content_pool_template_TBA_guarded_treasure_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_treasure_zone"
+						"content_pool_template_TBA_unguarded_treasure_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_treasure_zone_poor"
@@ -3339,31 +3282,37 @@
 						0
 					],
 					"diplomacyModifier": -0.5,
-					"mainObjects": [
-						{
-							"type": "AbandonedOutpost",
-							"guardChance": 1.0,
-							"guardValue": 10000,
-							"guardWeeklyIncrement": 0.2,
-							"buildingsConstructionSid": "poor_buildings_construction",
-							"placement": "Center"
-						}
-					],
+					"mainObjects": [],
 					"zoneBiome": {
 						"type": "FromList",
 						"args": [
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
 							"Autumn"
 						]
 					},
 					"contentBiome": {
 						"type": "FromList",
 						"args": [
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
 							"Autumn"
 						]
 					},
 					"metaObjectsBiome": {
 						"type": "FromList",
 						"args": [
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
 							"Autumn"
 						]
 					},
@@ -3371,9 +3320,9 @@
 						{
 							"type": "Stone",
 							"from": {
-								"type": "MainObject",
+								"type": "Connection",
 								"args": [
-									"0"
+									"Ctr-N--Inner-N"
 								]
 							},
 							"to": {
@@ -3386,24 +3335,9 @@
 						{
 							"type": "Stone",
 							"from": {
-								"type": "MainObject",
-								"args": [
-									"0"
-								]
-							},
-							"to": {
 								"type": "Connection",
 								"args": [
 									"Ctr-N--Inner-N"
-								]
-							}
-						},
-						{
-							"type": "Stone",
-							"from": {
-								"type": "MainObject",
-								"args": [
-									"0"
 								]
 							},
 							"to": {
@@ -3415,10 +3349,10 @@
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_treasure_zone"
+						"content_pool_template_TBA_guarded_treasure_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_treasure_zone"
+						"content_pool_template_TBA_unguarded_treasure_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_treasure_zone_poor"
@@ -3453,31 +3387,37 @@
 						0
 					],
 					"diplomacyModifier": -0.5,
-					"mainObjects": [
-						{
-							"type": "AbandonedOutpost",
-							"guardChance": 1.0,
-							"guardValue": 10000,
-							"guardWeeklyIncrement": 0.2,
-							"buildingsConstructionSid": "poor_buildings_construction",
-							"placement": "Center"
-						}
-					],
+					"mainObjects": [],
 					"zoneBiome": {
 						"type": "FromList",
 						"args": [
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
 							"Autumn"
 						]
 					},
 					"contentBiome": {
 						"type": "FromList",
 						"args": [
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
 							"Autumn"
 						]
 					},
 					"metaObjectsBiome": {
 						"type": "FromList",
 						"args": [
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
 							"Autumn"
 						]
 					},
@@ -3485,9 +3425,9 @@
 						{
 							"type": "Stone",
 							"from": {
-								"type": "MainObject",
+								"type": "Connection",
 								"args": [
-									"0"
+									"Ctr-W--Inner-W"
 								]
 							},
 							"to": {
@@ -3500,9 +3440,9 @@
 						{
 							"type": "Stone",
 							"from": {
-								"type": "MainObject",
+								"type": "Connection",
 								"args": [
-									"0"
+									"Ctr-W--Inner-W"
 								]
 							},
 							"to": {
@@ -3511,28 +3451,13 @@
 									"Conn-2--Inner-W"
 								]
 							}
-						},
-						{
-							"type": "Stone",
-							"from": {
-								"type": "MainObject",
-								"args": [
-									"0"
-								]
-							},
-							"to": {
-								"type": "Connection",
-								"args": [
-									"Ctr-W--Inner-W"
-								]
-							}
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_treasure_zone"
+						"content_pool_template_TBA_guarded_treasure_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_treasure_zone"
+						"content_pool_template_TBA_unguarded_treasure_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_treasure_zone_poor"
@@ -3567,31 +3492,37 @@
 						0
 					],
 					"diplomacyModifier": -0.5,
-					"mainObjects": [
-						{
-							"type": "AbandonedOutpost",
-							"guardChance": 1.0,
-							"guardValue": 10000,
-							"guardWeeklyIncrement": 0.2,
-							"buildingsConstructionSid": "poor_buildings_construction",
-							"placement": "Center"
-						}
-					],
+					"mainObjects": [],
 					"zoneBiome": {
 						"type": "FromList",
 						"args": [
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
 							"Autumn"
 						]
 					},
 					"contentBiome": {
 						"type": "FromList",
 						"args": [
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
 							"Autumn"
 						]
 					},
 					"metaObjectsBiome": {
 						"type": "FromList",
 						"args": [
+							"Grass",
+							"Lava",
+							"Snow",
+							"Dirt",
+							"Deathland",
 							"Autumn"
 						]
 					},
@@ -3599,9 +3530,9 @@
 						{
 							"type": "Stone",
 							"from": {
-								"type": "MainObject",
+								"type": "Connection",
 								"args": [
-									"0"
+									"Ctr-S--Inner-S"
 								]
 							},
 							"to": {
@@ -3614,24 +3545,9 @@
 						{
 							"type": "Stone",
 							"from": {
-								"type": "MainObject",
-								"args": [
-									"0"
-								]
-							},
-							"to": {
 								"type": "Connection",
 								"args": [
 									"Ctr-S--Inner-S"
-								]
-							}
-						},
-						{
-							"type": "Stone",
-							"from": {
-								"type": "MainObject",
-								"args": [
-									"0"
 								]
 							},
 							"to": {
@@ -3643,10 +3559,10 @@
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_treasure_zone"
+						"content_pool_template_TBA_guarded_treasure_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_treasure_zone"
+						"content_pool_template_TBA_unguarded_treasure_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_treasure_zone_poor"
@@ -3700,21 +3616,13 @@
 					"contentBiome": {
 						"type": "FromList",
 						"args": [
-							"Grass",
-							"Lava",
-							"Snow",
-							"Dirt",
-							"Deathland"
+							"Sand"
 						]
 					},
 					"metaObjectsBiome": {
 						"type": "FromList",
 						"args": [
-							"Grass",
-							"Lava",
-							"Snow",
-							"Dirt",
-							"Deathland"
+							"Sand"
 						]
 					},
 					"crossroadsPosition": 0,
@@ -3766,10 +3674,10 @@
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_supertreasure_zone"
+						"content_pool_template_TBA_guarded_supertreasure_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_supertreasure_zone"
+						"content_pool_template_TBA_unguarded_supertreasure_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_treasure_zone_zero"
@@ -3823,21 +3731,13 @@
 					"contentBiome": {
 						"type": "FromList",
 						"args": [
-							"Grass",
-							"Lava",
-							"Snow",
-							"Dirt",
-							"Deathland"
+							"Sand"
 						]
 					},
 					"metaObjectsBiome": {
 						"type": "FromList",
 						"args": [
-							"Grass",
-							"Lava",
-							"Snow",
-							"Dirt",
-							"Deathland"
+							"Sand"
 						]
 					},
 					"crossroadsPosition": 0,
@@ -3889,10 +3789,10 @@
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_supertreasure_zone"
+						"content_pool_template_TBA_guarded_supertreasure_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_supertreasure_zone"
+						"content_pool_template_TBA_unguarded_supertreasure_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_treasure_zone_zero"
@@ -3946,21 +3846,13 @@
 					"contentBiome": {
 						"type": "FromList",
 						"args": [
-							"Grass",
-							"Lava",
-							"Snow",
-							"Dirt",
-							"Deathland"
+							"Sand"
 						]
 					},
 					"metaObjectsBiome": {
 						"type": "FromList",
 						"args": [
-							"Grass",
-							"Lava",
-							"Snow",
-							"Dirt",
-							"Deathland"
+							"Sand"
 						]
 					},
 					"crossroadsPosition": 0,
@@ -4012,10 +3904,10 @@
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_supertreasure_zone"
+						"content_pool_template_TBA_guarded_supertreasure_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_supertreasure_zone"
+						"content_pool_template_TBA_unguarded_supertreasure_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_treasure_zone_zero"
@@ -4069,21 +3961,13 @@
 					"contentBiome": {
 						"type": "FromList",
 						"args": [
-							"Grass",
-							"Lava",
-							"Snow",
-							"Dirt",
-							"Deathland"
+							"Sand"
 						]
 					},
 					"metaObjectsBiome": {
 						"type": "FromList",
 						"args": [
-							"Grass",
-							"Lava",
-							"Snow",
-							"Dirt",
-							"Deathland"
+							"Sand"
 						]
 					},
 					"crossroadsPosition": 0,
@@ -4135,10 +4019,10 @@
 						}
 					],
 					"guardedContentPool": [
-						"content_pool_template_ikarus_guarded_supertreasure_zone"
+						"content_pool_template_TBA_guarded_supertreasure_zone"
 					],
 					"unguardedContentPool": [
-						"content_pool_template_ikarus_unguarded_supertreasure_zone"
+						"content_pool_template_TBA_unguarded_supertreasure_zone"
 					],
 					"resourcesContentPool": [
 						"content_pool_general_resources_treasure_zone_zero"
@@ -4162,7 +4046,7 @@
 					"name": "Spawn-A--T1-A",
 					"from": "Spawn-A",
 					"to": "T1-A",
-					"connectionType": "Underground",
+					"connectionType": "Direct",
 					"road": true,
 					"guardValue": 6000,
 					"guardWeeklyIncrement": 0.2
@@ -4183,19 +4067,17 @@
 					"to": "Conn-1",
 					"connectionType": "Direct",
 					"road": true,
-					"guardValue": 20000,
+					"guardValue": 60000,
 					"guardWeeklyIncrement": 0.2
 				},
 				{
 					"name": "T2-A--T2-B",
 					"from": "T2-A",
 					"to": "T2-B",
-					"connectionType": "Teleport",
+					"connectionType": "Direct",
 					"road": true,
-					"guardValue": 200000,
-					"guardWeeklyIncrement": 0.2,
-					"simTurnSquad": true,
-					"guardEscape": false
+					"guardValue": 1200000,
+					"guardWeeklyIncrement": 0.2
 				},
 				{
 					"name": "Conn-1--Inner-W",
@@ -4223,7 +4105,7 @@
 					"to": "T1-C",
 					"connectionType": "Direct",
 					"road": true,
-					"guardValue": 20000,
+					"guardValue": 60000,
 					"guardWeeklyIncrement": 0.2
 				},
 				{
@@ -4252,7 +4134,7 @@
 					"to": "T1-D",
 					"connectionType": "Direct",
 					"road": true,
-					"guardValue": 20000,
+					"guardValue": 60000,
 					"guardWeeklyIncrement": 0.2
 				},
 				{
@@ -4261,7 +4143,7 @@
 					"to": "T1-E",
 					"connectionType": "Direct",
 					"road": true,
-					"guardValue": 20000,
+					"guardValue": 60000,
 					"guardWeeklyIncrement": 0.2
 				},
 				{
@@ -4290,11 +4172,11 @@
 					"name": "Ctr-N--Inner-N",
 					"from": "Ctr-N",
 					"to": "Inner-N",
-					"connectionType": "Underground",
+					"connectionType": "Teleport",
 					"road": true,
 					"guardValue": 70000,
 					"guardWeeklyIncrement": 0.2,
-					"guardEscape": false
+					"simTurnSquad": true
 				},
 				{
 					"name": "Ctr-S--Ctr-W",
@@ -4322,31 +4204,31 @@
 					"name": "Ctr-S--Inner-S",
 					"from": "Ctr-S",
 					"to": "Inner-S",
-					"connectionType": "Underground",
+					"connectionType": "Teleport",
 					"road": true,
 					"guardValue": 70000,
 					"guardWeeklyIncrement": 0.2,
-					"guardEscape": false
+					"simTurnSquad": true
 				},
 				{
 					"name": "Ctr-W--Inner-W",
 					"from": "Ctr-W",
 					"to": "Inner-W",
-					"connectionType": "Underground",
+					"connectionType": "Teleport",
 					"road": true,
 					"guardValue": 70000,
 					"guardWeeklyIncrement": 0.2,
-					"guardEscape": false
+					"simTurnSquad": true
 				},
 				{
 					"name": "Ctr-E--Inner-E",
 					"from": "Ctr-E",
 					"to": "Inner-E",
-					"connectionType": "Underground",
+					"connectionType": "Teleport",
 					"road": true,
 					"guardValue": 70000,
 					"guardWeeklyIncrement": 0.2,
-					"guardEscape": false
+					"simTurnSquad": true
 				},
 				{
 					"name": "Inner-E--Conn-3",
@@ -4392,7 +4274,7 @@
 					"name": "Spawn-B--T1-B",
 					"from": "Spawn-B",
 					"to": "T1-B",
-					"connectionType": "Underground",
+					"connectionType": "Direct",
 					"road": true,
 					"guardValue": 6000,
 					"guardWeeklyIncrement": 0.2
@@ -4413,7 +4295,7 @@
 					"to": "Conn-3",
 					"connectionType": "Direct",
 					"road": true,
-					"guardValue": 20000,
+					"guardValue": 60000,
 					"guardWeeklyIncrement": 0.2
 				},
 				{
@@ -4422,7 +4304,7 @@
 					"to": "T1-F",
 					"connectionType": "Direct",
 					"road": true,
-					"guardValue": 20000,
+					"guardValue": 60000,
 					"guardWeeklyIncrement": 0.2
 				},
 				{
@@ -4431,7 +4313,7 @@
 					"to": "T1-G",
 					"connectionType": "Direct",
 					"road": true,
-					"guardValue": 20000,
+					"guardValue": 60000,
 					"guardWeeklyIncrement": 0.2
 				},
 				{
@@ -4440,14 +4322,14 @@
 					"to": "T1-H",
 					"connectionType": "Direct",
 					"road": true,
-					"guardValue": 20000,
+					"guardValue": 60000,
 					"guardWeeklyIncrement": 0.2
 				},
 				{
 					"name": "Spawn-C--T1-C",
 					"from": "Spawn-C",
 					"to": "T1-C",
-					"connectionType": "Underground",
+					"connectionType": "Direct",
 					"road": true,
 					"guardValue": 6000,
 					"guardWeeklyIncrement": 0.2
@@ -4456,12 +4338,10 @@
 					"name": "T2-C--T2-D",
 					"from": "T2-C",
 					"to": "T2-D",
-					"connectionType": "Teleport",
+					"connectionType": "Direct",
 					"road": true,
-					"guardValue": 200000,
-					"guardWeeklyIncrement": 0.2,
-					"simTurnSquad": true,
-					"guardEscape": false
+					"guardValue": 1200000,
+					"guardWeeklyIncrement": 0.2
 				},
 				{
 					"name": "T2-C--T1-C",
@@ -4487,7 +4367,7 @@
 					"name": "T1-D--Spawn-D",
 					"from": "T1-D",
 					"to": "Spawn-D",
-					"connectionType": "Underground",
+					"connectionType": "Direct",
 					"road": true,
 					"guardValue": 6000,
 					"guardWeeklyIncrement": 0.2
@@ -4496,7 +4376,7 @@
 					"name": "Spawn-E--T1-E",
 					"from": "Spawn-E",
 					"to": "T1-E",
-					"connectionType": "Underground",
+					"connectionType": "Direct",
 					"road": true,
 					"guardValue": 6000,
 					"guardWeeklyIncrement": 0.2
@@ -4505,7 +4385,7 @@
 					"name": "Spawn-F--T1-F",
 					"from": "Spawn-F",
 					"to": "T1-F",
-					"connectionType": "Underground",
+					"connectionType": "Direct",
 					"road": true,
 					"guardValue": 6000,
 					"guardWeeklyIncrement": 0.2
@@ -4514,7 +4394,7 @@
 					"name": "Spawn-G--T1-G",
 					"from": "Spawn-G",
 					"to": "T1-G",
-					"connectionType": "Underground",
+					"connectionType": "Direct",
 					"road": true,
 					"guardValue": 6000,
 					"guardWeeklyIncrement": 0.2
@@ -4523,12 +4403,10 @@
 					"name": "T2-G--T2-F",
 					"from": "T2-G",
 					"to": "T2-F",
-					"connectionType": "Teleport",
+					"connectionType": "Direct",
 					"road": true,
-					"guardValue": 200000,
-					"guardWeeklyIncrement": 0.2,
-					"simTurnSquad": true,
-					"guardEscape": false
+					"guardValue": 1200000,
+					"guardWeeklyIncrement": 0.2
 				},
 				{
 					"name": "T2-G--T1-G",
@@ -4554,7 +4432,7 @@
 					"name": "Spawn-H--T1-H",
 					"from": "Spawn-H",
 					"to": "T1-H",
-					"connectionType": "Underground",
+					"connectionType": "Direct",
 					"road": true,
 					"guardValue": 6000,
 					"guardWeeklyIncrement": 0.2
@@ -4563,12 +4441,10 @@
 					"name": "T2-H--T2-E",
 					"from": "T2-H",
 					"to": "T2-E",
-					"connectionType": "Teleport",
+					"connectionType": "Direct",
 					"road": true,
-					"guardValue": 200000,
-					"guardWeeklyIncrement": 0.2,
-					"simTurnSquad": true,
-					"guardEscape": false
+					"guardValue": 1200000,
+					"guardWeeklyIncrement": 0.2
 				},
 				{
 					"name": "T2-H--T1-H",
@@ -4720,11 +4596,6 @@
 					"includeLists": [
 						"content_list_building_random_hires_low_tier"
 					]
-				},
-				{
-					"includeLists": [
-						"content_list_building_random_hires_low_tier"
-					]
 				}
 			]
 		},
@@ -4787,6 +4658,38 @@
 				{
 					"sid": "mirage",
 					"soloEncounter": true
+				}
+			]
+		},
+		{
+			"name": "mandatory_content_t1_zone",
+			"content": [
+				{
+					"sid": "dragon_utopia",
+					"variant": -1
+				},
+				{
+					"sid": "random_item_legendary"
+				},
+				{
+					"sid": "pandora_box",
+					"variant": 12
+				},
+				{
+					"sid": "mythic_scroll_box",
+					"variant": -1
+				},
+				{
+					"sid": "mine_crystals",
+					"isMine": true
+				},
+				{
+					"sid": "mine_mercury",
+					"isMine": true
+				},
+				{
+					"sid": "mine_gemstones",
+					"isMine": true
 				}
 			]
 		}
@@ -4897,6 +4800,760 @@
 			]
 		}
 	],
-	"contentPools": [],
+	"contentPools": [
+		{
+			"name": "content_pool_template_TBA_guarded_start_zone",
+			"valueDistribution": {
+				"priceBounds": [
+					3999,
+					6999,
+					9999
+				],
+				"weights": [
+					4,
+					17,
+					11,
+					0
+				]
+			},
+			"groups": [
+				{
+					"weight": 10000,
+					"includeLists": [
+						"content_list_pickup_random_items"
+					],
+					"content": [
+						{
+							"sid": "random_item_common",
+							"weight": 100
+						},
+						{
+							"sid": "random_item_rare",
+							"weight": 80
+						},
+						{
+							"sid": "random_item_epic",
+							"weight": 10
+						},
+						{
+							"sid": "random_item_legendary",
+							"weight": 0
+						}
+					]
+				},
+				{
+					"weight": 7500,
+					"includeLists": [
+						"content_list_pickup_scroll_box"
+					]
+				},
+				{
+					"weight": 5000,
+					"includeLists": [
+						"content_list_pickup_enchanted_scroll_box"
+					]
+				},
+				{
+					"weight": 7500,
+					"includeLists": [
+						"content_list_pickup_scroll_box_tier_1",
+						"content_list_pickup_scroll_box_tier_2",
+						"content_list_pickup_scroll_box_tier_3",
+						"content_list_pickup_scroll_box_tier_4",
+						"content_list_pickup_scroll_box_tier_5"
+					]
+				},
+				{
+					"weight": 30000,
+					"includeLists": [
+						"content_list_basic_storage"
+					]
+				},
+				{
+					"weight": 15000,
+					"includeLists": [
+						"content_list_pickup_pandora_box"
+					]
+				},
+				{
+					"weight": 25000,
+					"includeLists": [
+						"content_list_building_uncommon_interact"
+					]
+				},
+				{
+					"weight": 30000,
+					"includeLists": [
+						"content_list_building_common_hero_stats"
+					]
+				},
+				{
+					"weight": 10000,
+					"includeLists": [
+						"content_list_building_uncommon_hero_stats"
+					],
+					"content": [
+						{
+							"sid": "fort",
+							"weight": 200
+						},
+						{
+							"sid": "orb_observatory",
+							"weight": 200
+						},
+						{
+							"sid": "college_of_wonder",
+							"weight": 100
+						}
+					]
+				},
+				{
+					"weight": 50000,
+					"includeLists": [
+						"content_list_building_random_hires"
+					],
+					"content": [
+						{
+							"sid": "random_hire_1",
+							"weight": 75
+						},
+						{
+							"sid": "random_hire_2",
+							"weight": 100
+						},
+						{
+							"sid": "random_hire_3",
+							"weight": 125
+						},
+						{
+							"sid": "random_hire_4",
+							"weight": 150
+						},
+						{
+							"sid": "random_hire_5",
+							"weight": 100
+						},
+						{
+							"sid": "random_hire_6",
+							"weight": 75
+						},
+						{
+							"sid": "random_hire_7",
+							"weight": 50
+						}
+					]
+				},
+				{
+					"weight": 10000,
+					"includeLists": [
+						"content_list_building_common_hero_buffs"
+					]
+				},
+				{
+					"weight": 10000,
+					"includeLists": [
+						"content_list_building_uncommon_hero_banks"
+					]
+				},
+				{
+					"weight": 10000,
+					"includeLists": [
+						"content_list_building_commons_magic"
+					]
+				},
+				{
+					"weight": 15000,
+					"includeLists": [
+						"content_list_building_common_resource_banks"
+					]
+				},
+				{
+					"weight": 15000,
+					"includeLists": [
+						"content_list_building_uncommon_resource_banks_fix"
+					]
+				},
+				{
+					"weight": 30000,
+					"includeLists": [
+						"content_list_building_uncommon_guarded_resource_banks"
+					]
+				},
+				{
+					"weight": 10000,
+					"includeLists": [
+						"content_list_building_epic_guarded_resource_banks"
+					]
+				},
+				{
+					"weight": 70000,
+					"includeLists": [
+						"content_list_building_uncommon_guarded_units_banks_equal"
+					]
+				}
+			]
+		},
+		{
+			"name": "content_pool_template_TBA_unguarded_start_zone",
+			"valueDistribution": {
+				"priceBounds": [
+					3999,
+					6999
+				],
+				"weights": [
+					4,
+					17,
+					0
+				]
+			},
+			"groups": [
+				{
+					"weight": 2500,
+					"includeLists": [
+						"content_list_pickup_random_items"
+					],
+					"content": [
+						{
+							"sid": "random_item_common",
+							"weight": 100
+						},
+						{
+							"sid": "random_item_rare",
+							"weight": 0
+						},
+						{
+							"sid": "random_item_epic",
+							"weight": 0
+						},
+						{
+							"sid": "random_item_legendary",
+							"weight": 0
+						}
+					]
+				},
+				{
+					"weight": 5000,
+					"includeLists": [
+						"content_list_pickup_scroll_box_tier_1"
+					]
+				},
+				{
+					"weight": 10000,
+					"includeLists": [
+						"content_list_building_common_interact_no_imbalance"
+					]
+				},
+				{
+					"weight": 20000,
+					"includeLists": [
+						"content_list_building_common_hero_stats"
+					]
+				},
+				{
+					"weight": 15000,
+					"includeLists": [
+						"content_list_building_common_hero_buffs"
+					]
+				},
+				{
+					"weight": 5000,
+					"includeLists": [
+						"content_list_building_common_guarded_resource_banks"
+					]
+				}
+			],
+			"bans": [
+				{
+					"sid": "wind_rose"
+				},
+				{
+					"sid": "lost_library"
+				},
+				{
+					"sid": "stables"
+				},
+				{
+					"sid": "quixs_path"
+				},
+				{
+					"sid": "monty_hall",
+					"variant": 1
+				},
+				{
+					"sid": "monty_hall",
+					"variant": 2
+				},
+				{
+					"sid": "monty_hall",
+					"variant": 3
+				}
+			]
+		},
+		{
+			"name": "content_pool_template_TBA_guarded_treasure_zone",
+			"valueDistribution": {
+				"priceBounds": [
+					3999,
+					6999,
+					12999,
+					19999
+				],
+				"weights": [
+					4,
+					17,
+					20,
+					21,
+					0
+				]
+			},
+			"groups": [
+				{
+					"weight": 150000,
+					"includeLists": [
+						"content_list_pickup_random_items"
+					],
+					"content": [
+						{
+							"sid": "random_item_common",
+							"weight": 100
+						},
+						{
+							"sid": "random_item_rare",
+							"weight": 80
+						},
+						{
+							"sid": "random_item_epic",
+							"weight": 60
+						},
+						{
+							"sid": "random_item_legendary",
+							"weight": 40
+						}
+					]
+				},
+				{
+					"weight": 40000,
+					"includeLists": [
+						"content_list_pickup_prison"
+					]
+				},
+				{
+					"weight": 7500,
+					"includeLists": [
+						"content_list_pickup_scroll_box"
+					]
+				},
+				{
+					"weight": 10000,
+					"includeLists": [
+						"content_list_pickup_enchanted_scroll_box"
+					]
+				},
+				{
+					"weight": 60000,
+					"includeLists": [
+						"content_list_pickup_pandora_box"
+					]
+				},
+				{
+					"weight": 7500,
+					"includeLists": [
+						"content_list_pickup_scroll_box_tier_1",
+						"content_list_pickup_scroll_box_tier_2",
+						"content_list_pickup_scroll_box_tier_3",
+						"content_list_pickup_scroll_box_tier_4",
+						"content_list_pickup_scroll_box_tier_5"
+					]
+				},
+				{
+					"weight": 20000,
+					"includeLists": [
+						"content_list_building_uncommon_interact"
+					]
+				},
+				{
+					"weight": 30000,
+					"includeLists": [
+						"content_list_building_common_hero_stats"
+					]
+				},
+				{
+					"weight": 10000,
+					"includeLists": [
+						"content_list_building_uncommon_hero_stats"
+					],
+					"content": [
+						{
+							"sid": "fort",
+							"weight": 200
+						},
+						{
+							"sid": "orb_observatory",
+							"weight": 200
+						},
+						{
+							"sid": "college_of_wonder",
+							"weight": 100
+						}
+					]
+				},
+				{
+					"weight": 20000,
+					"includeLists": [
+						"content_list_building_common_hero_buffs"
+					],
+					"content": [
+						{
+							"sid": "stables",
+							"weight": 0
+						},
+						{
+							"sid": "quixs_path",
+							"weight": 0
+						}
+					]
+				},
+				{
+					"weight": 25000,
+					"includeLists": [
+						"content_list_building_uncommon_hero_banks"
+					]
+				},
+				{
+					"weight": 20000,
+					"includeLists": [
+						"content_list_building_commons_magic"
+					]
+				},
+				{
+					"weight": 20000,
+					"includeLists": [
+						"content_list_building_uncommons_magic"
+					]
+				},
+				{
+					"weight": 30000,
+					"includeLists": [
+						"content_list_building_random_hires"
+					],
+					"content": [
+						{
+							"sid": "random_hire_1",
+							"weight": 250
+						},
+						{
+							"sid": "random_hire_2",
+							"weight": 250
+						},
+						{
+							"sid": "random_hire_3",
+							"weight": 225
+						},
+						{
+							"sid": "random_hire_4",
+							"weight": 225
+						},
+						{
+							"sid": "random_hire_5",
+							"weight": 200
+						},
+						{
+							"sid": "random_hire_6",
+							"weight": 200
+						},
+						{
+							"sid": "random_hire_7",
+							"weight": 175
+						}
+					]
+				},
+				{
+					"weight": 7500,
+					"includeLists": [
+						"content_list_building_common_resource_banks"
+					]
+				},
+				{
+					"weight": 30000,
+					"includeLists": [
+						"content_list_building_uncommon_resource_banks_fix"
+					]
+				},
+				{
+					"weight": 7500,
+					"includeLists": [
+						"content_list_building_common_guarded_resource_bank_fix"
+					]
+				},
+				{
+					"weight": 30000,
+					"includeLists": [
+						"content_list_building_uncommon_guarded_resource_banks"
+					]
+				},
+				{
+					"weight": 15000,
+					"includeLists": [
+						"content_list_building_epic_guarded_resource_banks"
+					],
+					"content": [
+						{
+							"sid": "troglodyte_throne",
+							"weight": 40
+						},
+						{
+							"sid": "twilight_bloom",
+							"weight": 80
+						},
+						{
+							"sid": "unstable_ruins",
+							"weight": 80
+						},
+						{
+							"sid": "dragon_utopia",
+							"weight": 0
+						}
+					]
+				},
+				{
+					"weight": 80000,
+					"includeLists": [
+						"content_list_building_uncommon_guarded_units_banks_equal"
+					]
+				}
+			],
+			"bans": [
+				{
+					"sid": "monty_hall",
+					"variant": 1
+				},
+				{
+					"sid": "monty_hall",
+					"variant": 2
+				},
+				{
+					"sid": "monty_hall",
+					"variant": 3
+				},
+				{
+					"sid": "random_item_legendary"
+				}
+			]
+		},
+		{
+			"name": "content_pool_template_TBA_unguarded_treasure_zone",
+			"valueDistribution": {
+				"priceBounds": [
+					3999,
+					6999,
+					9999
+				],
+				"weights": [
+					0,
+					2,
+					4,
+					8
+				]
+			},
+			"groups": [
+				{
+					"weight": 5000,
+					"includeLists": [
+						"content_list_basic_storage"
+					]
+				},
+				{
+					"weight": 25000,
+					"includeLists": [
+						"content_list_building_common_interact_no_imbalance"
+					]
+				}
+			]
+		},
+		{
+			"name": "content_pool_template_TBA_guarded_supertreasure_zone",
+			"valueDistribution": {
+				"priceBounds": [
+					3999,
+					6999,
+					12999,
+					19999
+				],
+				"weights": [
+					0,
+					2,
+					8,
+					25,
+					20
+				]
+			},
+			"groups": [
+				{
+					"weight": 500000,
+					"includeLists": [
+						"content_list_pickup_random_items"
+					],
+					"content": [
+						{
+							"sid": "random_item_common",
+							"weight": 0
+						},
+						{
+							"sid": "random_item_rare",
+							"weight": 0
+						},
+						{
+							"sid": "random_item_epic",
+							"weight": 60
+						},
+						{
+							"sid": "random_item_legendary",
+							"weight": 60
+						}
+					]
+				},
+				{
+					"weight": 40000,
+					"includeLists": [
+						"content_list_pickup_prison"
+					]
+				},
+				{
+					"weight": 7500,
+					"includeLists": [
+						"content_list_pickup_scroll_box"
+					]
+				},
+				{
+					"weight": 80000,
+					"includeLists": [
+						"content_list_pickup_enchanted_scroll_box"
+					]
+				},
+				{
+					"weight": 80000,
+					"includeLists": [
+						"content_list_pickup_pandora_box"
+					]
+				},
+				{
+					"weight": 20000,
+					"includeLists": [
+						"content_list_building_uncommon_interact"
+					]
+				},
+				{
+					"weight": 75000,
+					"includeLists": [
+						"content_list_building_uncommon_hero_stats"
+					],
+					"content": [
+						{
+							"sid": "fort",
+							"weight": 200
+						},
+						{
+							"sid": "orb_observatory",
+							"weight": 200
+						},
+						{
+							"sid": "college_of_wonder",
+							"weight": 100
+						}
+					]
+				},
+				{
+					"weight": 25000,
+					"includeLists": [
+						"content_list_building_uncommon_hero_banks"
+					]
+				},
+				{
+					"weight": 30000,
+					"includeLists": [
+						"content_list_building_uncommons_magic"
+					]
+				},
+				{
+					"weight": 40000,
+					"includeLists": [
+						"content_list_building_uncommon_resource_banks_fix"
+					]
+				},
+				{
+					"weight": 20000,
+					"includeLists": [
+						"content_list_building_uncommon_guarded_resource_banks"
+					]
+				},
+				{
+					"weight": 2500,
+					"includeLists": [
+						"content_list_building_epic_guarded_resource_banks"
+					],
+					"content": [
+						{
+							"sid": "troglodyte_throne",
+							"weight": 40
+						},
+						{
+							"sid": "twilight_bloom",
+							"weight": 80
+						},
+						{
+							"sid": "unstable_ruins",
+							"weight": 80
+						},
+						{
+							"sid": "dragon_utopia",
+							"weight": 120
+						}
+					]
+				},
+				{
+					"weight": 90000,
+					"includeLists": [
+						"content_list_building_uncommon_guarded_units_banks_equal"
+					]
+				}
+			],
+			"bans": [
+				{
+					"sid": "fountain"
+				},
+				{
+					"sid": "fountain_2"
+				},
+				{
+					"sid": "lost_library"
+				},
+				{
+					"sid": "stables"
+				},
+				{
+					"sid": "quixs_path"
+				}
+			]
+		},
+		{
+			"name": "content_pool_template_TBA_unguarded_supertreasure_zone",
+			"valueDistribution": {
+				"priceBounds": [
+					3999,
+					6999,
+					12999,
+					19999
+				],
+				"weights": [
+					0,
+					2,
+					5,
+					12,
+					20
+				]
+			},
+			"groups": []
+		}
+	],
 	"contentLists": []
 }
